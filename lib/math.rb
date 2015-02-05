@@ -1,0 +1,5 @@
+require 'math/calculation'
+require 'math/launch'
+require 'math/parser'
+require 'math/add_command'
+require 'math/repeat_command'
