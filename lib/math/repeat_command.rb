@@ -1,9 +1,10 @@
 #Repeats the previous command in order
 
-class Repeat
+class Repeat_command
 
   def initialize(command_array)
     @command_array = command_array
+    #@p = Parser.new
   end
 
   def repetition

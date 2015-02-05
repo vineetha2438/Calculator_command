@@ -29,11 +29,11 @@ class Parser
 			when "cubert"
 				@result = Cube_root_command.new
 			when "abs"
-				@result = Absolute.new
+				@result = Absolute_command.new
 			when "neg"
-				@result = Negative.new
+				@result = Negative_command.new
 		  when "repeat"
-		  	@result = Repeat.new(@previous_commands)
+		  	@result = Repeat_command.new(@previous_commands)
 		end
 
 		return @result

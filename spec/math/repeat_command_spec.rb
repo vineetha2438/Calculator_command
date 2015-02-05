@@ -1,14 +1,8 @@
 require 'spec_helper'
 
-describe "calculator" do
-  let(:var) { Parser.new}
- 
-
-  it "checks" do 
-    var.parsing('add 5')
-    var.parsing('subtract 2')
-    var.parsing('add 5')
-    var.parsing('subtract 2')
-    expect(var.parsing('repeat 2')).to eq(9)
+describe Repeat_command do 
+  it "should repeat commands" do 
+    a = Repeat_command.new(['add 5', 'add 5'])
+    expect(a.repetition).to eq(10)
   end
 end
