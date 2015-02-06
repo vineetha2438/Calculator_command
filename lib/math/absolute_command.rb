@@ -1,6 +1,5 @@
 class Absolute_command
-  def operation
-    cal = Calculator.new
+  def operation(cal)
     cal.absolute
   end
 end

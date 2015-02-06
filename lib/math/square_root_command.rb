@@ -1,6 +1,5 @@
 class Square_root_command
-  def operation
-    cal = Calculator.new
+  def operation(cal)
     cal.square_root
   end
 end

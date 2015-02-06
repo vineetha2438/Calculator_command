@@ -2,13 +2,15 @@
 class Launch
 	def initialize
     @par = Parser.new
+    @calculator = Calculator.new
 	end
 
 	def start
 		print "$ "
 		input = gets.chomp
 		while input != 'exit' do 
-        puts @par.parsing(input)
+        command = @par.parsing(input)
+        puts command.operation(@calculator)
     		print "$"
     		input = gets.chomp
     	end

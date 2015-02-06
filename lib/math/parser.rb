@@ -6,37 +6,48 @@ class Parser
 	end
 
 	def parsing(com)
-		@previous_commands << com
 		op,@val_d = com.split(" ")
 		@val = @val_d.to_f
 		case op
 			when "add"
-				@result = Add_command.new(@val)
+				result = Add_command.new(@val)
+				@previous_commands << result
 			when "subtract"
-				@result = Subtract_command.new(@val)
+				result = Subtract_command.new(@val)
+				@previous_commands << result
 			when "multiply"
-				@result = Multiply_command.new(@val)
+				result = Multiply_command.new(@val)
+				@previous_commands << result
 			when "divide"
-				@result = Divide_command.new(@val)
+				result = Divide_command.new(@val)
+				@previous_commands << result
 			when "cancel"
-				@result = Cancel_command.new
+				result = Cancel_command.new
+				@previous_commands << result
 			when "sqr"
-				@result = Square_command.new
+				result = Square_command.new
+				@previous_commands << result
 			when "sqrt"
-				@result = Square_root_command.new
+				result = Square_root_command.new
+				@previous_commands << result
 			when "cube"
-				@result = Cube_command.new
+				result = Cube_command.new
+				@previous_commands << result
 			when "cubert"
-				@result = Cube_root_command.new
+				result = Cube_root_command.new
+				@previous_commands << result
 			when "abs"
-				@result = Absolute_command.new
+				result = Absolute_command.new
+				@previous_commands << result
 			when "neg"
-				@result = Negative_command.new
+				result = Negative_command.new
+				@previous_commands << result
 		  when "repeat"
-		  	@result = Repeat_command.new(@previous_commands)
+		  	result = Repeat_command.new(@val, @previous_commands)
 		end
 
-		return @result
+		
+		return result
 	end
 
 	

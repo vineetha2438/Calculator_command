@@ -1,6 +1,5 @@
 class Cancel_command
-  def operation
-    cal = Calculator.new
+  def operation(cal)
     cal.cancel
   end
 end

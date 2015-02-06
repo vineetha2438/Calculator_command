@@ -1,6 +1,5 @@
 class Negative_command
-  def operation
-    cal = Calculator.new
+  def operation(cal)
     cal.negative
   end
 end

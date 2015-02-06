@@ -1,6 +1,5 @@
 class Cube_root_command
-  def operation
-    cal = Calculator.new
+  def operation(cal)
     cal.cube_root
   end
 end
