@@ -5,20 +5,6 @@
         1,
         1,
         1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         1
       ],
       "/Users/kvineetha/Desktop/Calculator_command/lib/math/calculation.rb": [
@@ -28,7 +14,11 @@
         1,
         null,
         1,
-        44,
+        59,
+        null,
+        null,
+        1,
+        5,
         null,
         null,
         1,
@@ -36,54 +26,50 @@
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
+        4,
+        1,
+        null,
+        3,
+        null,
         null,
         null,
         1,
         3,
-        1,
-        null,
-        2,
-        null,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         1,
-        2,
-        null,
-        null,
-        1,
-        2,
+        3,
         null,
         null,
         1,
         null,
         null,
         1,
-        2,
+        3,
         null,
         null,
         null,
@@ -180,20 +166,59 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/command.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands.rb": [
         1,
         1,
-        34,
-        34,
-        34,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/command.rb": [
+        1,
+        1,
+        50,
+        50,
+        50,
         null,
         null,
         1,
-        1,
+        2,
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/add_command.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/add_command.rb": [
+        1,
+        null,
+        1,
+        4,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/repeat_command.rb": [
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        2,
+        2,
+        null,
+        2,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/subtract_command.rb": [
         1,
         null,
         1,
@@ -201,171 +226,113 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/repeat_command.rb": [
-        null,
-        null,
-        1,
-        null,
-        null,
-        1,
-        1,
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/multiply_command.rb": [
         1,
         null,
         1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/subtract_command.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/multiply_command.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/divide_command.rb": [
-        1,
-        null,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/cancel_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/cube_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/cube_root_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/square_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/square_root_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/absolute_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/negative_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/invalid_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/lib/math/exit_command.rb": [
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/add_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/calculation_spec.rb": [
-        1,
-        null,
-        1,
-        8,
-        6,
-        2,
         2,
         null,
-        1,
-        1,
-        null,
-        1,
-        1,
-        null,
-        1,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/divide_command.rb": [
         1,
         null,
         1,
-        1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/cancel_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/cube_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/cube_root_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/square_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/square_root_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/absolute_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/negative_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/invalid_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/lib/math/commands/exit_command.rb": [
         1,
         1,
+        2,
         null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
         1,
         1,
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/cancel_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/add_command_spec.rb": [
         1,
         1,
         1,
@@ -375,7 +342,18 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/repeat_command_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/subtract_command_spec.rb": [
         1,
         1,
         1,
@@ -385,7 +363,7 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/cube_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/multiply_command_spec.rb": [
         1,
         1,
         1,
@@ -395,7 +373,7 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/cube_root_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/divide_command_spec.rb": [
         1,
         1,
         1,
@@ -405,7 +383,7 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/divide_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/cancel_command_spec.rb": [
         1,
         1,
         1,
@@ -415,23 +393,83 @@
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/exit_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/cube_command_spec.rb": [
         1,
         1,
         1,
         1,
         1,
-        null,
         1,
         null,
         null
       ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/invalid_command_spec.rb": [
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/cube_root_command_spec.rb": [
         1,
         1,
         1,
         1,
         1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/square_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/square_root_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/absolute_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/negative_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/invalid_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/kvineetha/Desktop/Calculator_command/spec/math/commands_spec/exit_command_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
         1,
         null,
         null
@@ -451,26 +489,6 @@
         1,
         null,
         null,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/multiply_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/negative_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
         null,
         null
       ],
@@ -525,49 +543,8 @@
         1,
         null,
         null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/repeat_command_spec.rb": [
-        1,
-        null,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/square_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/square_root_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
-      ],
-      "/Users/kvineetha/Desktop/Calculator_command/spec/math/subtract_command_spec.rb": [
-        1,
-        1,
-        1,
-        1,
-        1,
-        1,
-        null,
-        null
       ]
     },
-    "timestamp": 1423214030
+    "timestamp": 1423216229
   }
 }
