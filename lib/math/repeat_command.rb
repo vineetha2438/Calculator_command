@@ -1,16 +1,11 @@
 #Repeats the previous command in order
 
-class Repeat_command
+class Repeat_command < Command
 
-  def initialize(value, command_array)
-    @val = value
-    @command_array = command_array
-    #@p = Parser.new
-  end
 
-  def operation(cal)
-    for i in @command_array.length - @val.to_i .. @command_array.length - 1
-      final_value = @command_array[i].operation(cal)
+  def operation
+    for i in @command_array.length - @value.to_i .. @command_array.length - 1
+      final_value = @command_array[i].operation
     end
     return final_value
   end

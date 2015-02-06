@@ -1,8 +1,6 @@
-class Add_command
-  def initialize(value)
-    @value = value
-  end
-  def operation(cal)
-    cal.add(@value)
+class Add_command < Command
+  
+  def operation
+    @cal.add(@value)
   end
 end

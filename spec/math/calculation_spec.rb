@@ -42,4 +42,10 @@ describe "calculator" do
 	it "should return absolute value" do 
 		expect(value2.absolute).to eq(4)
 	end
+	it "should check exit" do 
+		expect(value1.exit).to eq(nil)
+	end
+	it "should check invalid commands" do 
+		expect(value1.invalid).to eq("invalid command")
+	end
 end

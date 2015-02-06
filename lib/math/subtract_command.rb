@@ -1,9 +1,6 @@
-class Subtract_command
-  def initialize(value)
-    @value = value
-    
-  end
-  def operation(cal)
-    cal.subtract(@value)
+class Subtract_command < Command
+  
+  def operation
+    @cal.subtract(@value)
   end
 end

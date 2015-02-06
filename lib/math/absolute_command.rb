@@ -1,5 +1,5 @@
-class Absolute_command
-  def operation(cal)
-    cal.absolute
+class Absolute_command < Command
+  def operation
+    @cal.absolute
   end
 end

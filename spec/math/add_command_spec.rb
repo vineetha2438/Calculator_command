@@ -1,8 +1,8 @@
 require 'spec_helper'
 describe Add_command do 
   it "should call add operation" do 
-    a = Add_command.new(4)
     c = Calculator.new
-    expect(a.operation(c)).to eq(4)
+    a = Add_command.new(2, c, [1,2])
+    expect(a.operation).to eq(2)
   end
 end

@@ -1,8 +1,6 @@
-class Multiply_command
-  def initialize(value)
-    @value = value
-  end
-  def operation(cal)
-    cal.multiply(@value)
+class Multiply_command < Command
+  
+  def operation
+    @cal.multiply(@value)
   end
 end

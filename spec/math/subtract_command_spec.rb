@@ -1,8 +1,8 @@
 require 'spec_helper'
 describe Subtract_command do 
   it "should call add operation" do 
-    a = Subtract_command.new(4)
     c = Calculator.new
-    expect(a.operation(c)).to eq(-4)
+    ex = Subtract_command.new(2, c, [1,2])
+    expect(ex.operation).to eq(-2)
   end
 end

@@ -20,10 +20,10 @@ class Calculator
 	end
 
 	def divide(response)
-		 if (@value == 0)
+		 if (response == 0)
 		 	return 0
 		 else
-		 	@value = response / @value
+		 	@value = @value / response
 		 end
 	end
 
@@ -53,6 +53,13 @@ class Calculator
 
   def cube_root
   	Math.cbrt(@value)
+  end
+
+  def exit
+  end
+
+  def invalid
+    "invalid command"
   end
 
 end

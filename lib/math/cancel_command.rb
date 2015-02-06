@@ -1,5 +1,5 @@
-class Cancel_command
-  def operation(cal)
-    cal.cancel
+class Cancel_command < Command
+  def operation
+    @cal.cancel
   end
 end

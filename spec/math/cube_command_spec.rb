@@ -1,8 +1,8 @@
 require 'spec_helper'
 describe Cube_command do 
   it "should call cube operator" do 
-    a = Cube_command.new
     c = Calculator.new
-    expect(a.operation(c)).to eq(0)
+    a = Cube_command.new(2, c, [1,2])
+    expect(a.operation).to eq(0)
   end
 end

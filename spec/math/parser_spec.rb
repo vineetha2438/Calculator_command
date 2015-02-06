@@ -44,6 +44,7 @@ describe "parsing" do
 		var.parsing('subtract 2')
 		expect(var.parsing('repeat 2').class).to eq(Repeat_command)
 	end
-
-
+	it "should find invalid commands" do 
+		expect(var.parsing('sbtract 2').class).to eq(Invalid_command)
+	end
 end

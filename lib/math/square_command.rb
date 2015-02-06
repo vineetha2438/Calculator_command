@@ -1,5 +1,5 @@
-class Square_command
-  def operation(cal)
-    cal.square
+class Square_command < Command
+  def operation
+    @cal.square
   end
 end

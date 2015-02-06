@@ -1,8 +1,8 @@
 require 'spec_helper'
 describe Negative_command do 
   it "should call negative operator" do 
-    a = Negative_command.new
     c = Calculator.new
-    expect(a.operation(c)).to eq(0)
+    ex = Negative_command.new(2, c, [1,2])
+    expect(ex.operation).to eq(0)
   end
 end
